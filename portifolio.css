@@ -1,0 +1,197 @@
+.slider img{
+    max-width: 100%;
+    width: 1290px;
+    height:550px ;
+    object-fit: cover;
+}
+
+.slider h1{
+    font-family: 'Righteous', cursive;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+body{
+    background: #e0e0e0;
+}
+
+.menu a{
+    font-family: 'Righteous', cursive;
+}
+
+.card{
+    background: #000000b3;
+}
+
+.card mb-3{
+    background: black;
+}
+
+ #empresas h3{
+    display: block;
+    color: white ;
+    bottom: 90px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 60px;
+}
+
+h3, h5, li{
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+
+p{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+ul#album-fotos {
+    width: 1100px;
+    padding: 50px;
+    margin: 0px 20px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-fotos li{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    -webkit-transition: all 0.4s ease-in;
+}
+
+ul#album-fotos li span{
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 9pt;
+    padding: 5px;
+    line-height: 560px;
+    margin-left: 10px;
+}
+
+ul#album-fotos li:hover {
+    -webkit-transform: scale(1.5);
+}
+
+ul#album-fotos li:hover span{
+    opacity: 1;
+}
+
+ul#album-fotos li#foto01{
+    background: url('https://www.aeroflap.com.br/wp-content/uploads/2018/02/40126461411_a6e49a61f2_k.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto01:hover{
+    background-position: 0px 0px;
+    background-size: 300px 300px;
+}
+
+ul#album-fotos li#foto02{
+    background: url('https://quatrorodas.abril.com.br/wp-content/uploads/2017/03/img_1212.jpg?quality=70&strip=all') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto02:hover{
+    background-position: 0px 0px;
+    background-size: 300px 300px;
+}
+
+ul#album-fotos li#foto03{
+    background: url('https://i2.wp.com/socientifica.com.br/wp-content/uploads/2019/07/neuralink-3.jpg?fit=888%2C600&ssl=1') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto03:hover{
+    background-position: 0px 0px;
+    background-size: 300px 300px;
+}
+
+ul#album-fotos li#foto04{
+    background: url('https://www.testuff.com/wp-content/uploads/ai.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto04:hover{
+    background-position: 0px 0px;
+    background-size: 300px 300px;
+}
+
+ul#album-fotos li#foto05{
+    background: url('https://www.maistecnologia.com/wp-content/uploads/2016/08/SolarCity.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto05:hover{
+    background-position: 0px 0px;
+    background-size: 300px 300px;
+}
+
+ul#album-fotos li#foto06{
+    background: url('https://s.yimg.com/ny/api/res/1.2/exTWXWxXsJUnoXJhnC9wBQ--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/http://media.zenfs.com/en-US/homerun/businessinsider.com/12b5ba4ced89cbc9e1cece3075eaf6e2') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album-fotos li#foto06:hover{
+    background-position: 0px 0px;
+    background-size: 300px 300px;
+}
+
+#futuro img{
+    width: 550px;
+    height: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#futuro{
+    background: #000000b3;
+    display: flex;
+}
+
+#futuro h3{
+    padding: 30px;
+    margin-bottom: 10px;
+}
+#futuro li{
+    padding: 10px;
+    text-decoration: none;
+}
+
+#futuro a{
+    text-decoration: none;
+}
+
+footer#rodape{
+    clear: both;
+    border-top: 1px solid #606060;   
+    margin-top: 50px;
+}
+
+footer#rodape p{
+    text-align: center;
+    color: black;
+}
